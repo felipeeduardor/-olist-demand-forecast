@@ -1,0 +1,25 @@
+# Dataset bruto — nao versionar (arquivos grandes)
+olist_customers_dataset.csv
+olist_geolocation_dataset.csv
+olist_order_items_dataset.csv
+olist_order_payments_dataset.csv
+olist_order_reviews_dataset.csv
+olist_orders_dataset.csv
+olist_products_dataset.csv
+olist_sellers_dataset.csv
+product_category_name_translation.csv
+
+# Outputs gerados — opcional: versionar so os PNGs, nao os CSVs
+forecast_output/*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
